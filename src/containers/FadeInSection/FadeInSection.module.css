@@ -1,0 +1,41 @@
+.FadeInSection {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease-out, transform 1s ease-out;
+  will-change: opacity, visibility;
+}
+
+.FadeToTop {
+  transform: translateY(20vh);
+}
+
+.FadeToBottom {
+  transform: translateY(-20vh);
+}
+
+.FadeToLeft {
+  transform: translateX(10vw);
+}
+
+.FadeToRight {
+  transform: translateX(-10vw);
+}
+
+.isVisible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+.AlignChildLeft {
+  text-align: left;
+}
+
+
+.AlignChildRight {
+  text-align: right;
+}
+
+.AlignChildCenter {
+  text-align: center;
+}
